@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'dev-gamecener-rds-cluster.cluster-cfqmz6ange4q.ap-northeast-2.rds.amazonaws.com'),
-            'port' => env('DB_PORT', '5434'),
-            'database' => env('DB_DATABASE', 'gamecenter'),
-            'username' => env('DB_USERNAME', 'gamecenter'),
-            'password' => env('DB_PASSWORD', 'gamecenter*()'),
+            'host' => env('DB_HOST', ''),
+            'port' => env('DB_PORT', ''),
+            'database' => env('DB_DATABASE', ''),
+            'username' => env('DB_USERNAME', ''),
+            'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
